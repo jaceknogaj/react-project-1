@@ -1,0 +1,25 @@
+/* styles */
+:root {
+  --bg-gray: #4e4e4e;
+  --bg-white: #f1f1f1;
+  --bg-blue: #405d78;
+  --main-font: "Roboto", sans-serif;
+  --new-service: #e07a64;
+  --new-service-rgba70: rgb(224, 122, 100, 0.7);
+  --new-service-rgba0: rgb(224, 122, 100, 0);
+  --main-width: 100%;
+  --main-container: 960px;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-yankees-blue: #152d41;
+  --overlay: rgba(0, 0, 0, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 18px;
+}

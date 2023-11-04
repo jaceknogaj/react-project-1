@@ -1,0 +1,95 @@
+.container {
+  padding: 0 14px;
+  margin: 0 auto;
+}
+
+.sectionPadding {
+  padding: 51px 0 68px;
+}
+
+.sectionTitle {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-yankees-blue);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.bg1 {
+  background-color: var(--bg-white);
+}
+
+.aboutUs {
+  width: var(--main-width);
+  margin: 0 auto;
+}
+
+.expert {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.expert:last-child {
+  margin-bottom: 0;
+}
+
+.expertImg {
+  background-color: var(--bg-blue);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 197px;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 56px;
+}
+
+.expertText {
+  width: 100%;
+}
+
+.expertName {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .expert {
+    margin-bottom: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .expertImg {
+    margin-right: 60px;
+    margin-bottom: 0;
+  }
+
+  .expert:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .expert:nth-child(even) .expertImg {
+    margin-right: 0;
+    margin-left: 60px;
+  }
+  .expertText {
+    width: calc(100% - 197px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: var(--main-container);
+    padding: 0;
+  }
+  .sectionTitle {
+    font-size: 36px;
+    margin-bottom: 78px;
+    text-align: left;
+  }
+}
