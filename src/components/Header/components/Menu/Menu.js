@@ -11,9 +11,7 @@ const Menu = () => {
           <a href="#offer">oferta</a>
         </li>
         <li className={styles.navItem}>
-          <a className={styles.disabled} href="#">
-            kontakt
-          </a>
+          <div className={styles.disabled}>kontakt</div>
         </li>
       </ul>
     </nav>
