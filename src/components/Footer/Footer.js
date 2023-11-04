@@ -12,14 +12,14 @@ const Footer = () => {
         </div>
         <ul class={styles.footerIcon}>
           <li class={styles.iconItem}>
-            <a class={styles.iconLink}>
+            <div class={styles.iconLink}>
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
+            </div>
           </li>
           <li class={styles.iconItem}>
-            <a class={styles.iconLink}>
+            <div class={styles.iconLink}>
               <FontAwesomeIcon icon={faFacebook} />
-            </a>
+            </div>
           </li>
         </ul>
       </div>
