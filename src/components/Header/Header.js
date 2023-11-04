@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={`${styles.container} ${styles.headerContainer}`}>
         <div className={styles.headerLogo}>
-          <a href="#">moja firma</a>
+          <div>moja firma</div>
         </div>
         <Menu />
       </div>
