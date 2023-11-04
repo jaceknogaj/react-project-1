@@ -12,12 +12,12 @@ const Footer = () => {
         </div>
         <ul class={styles.footerIcon}>
           <li class={styles.iconItem}>
-            <a class={styles.iconLink} href="#">
+            <a class={styles.iconLink}>
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
           <li class={styles.iconItem}>
-            <a class={styles.iconLink} href="#">
+            <a class={styles.iconLink}>
               <FontAwesomeIcon icon={faFacebook} />
             </a>
           </li>
