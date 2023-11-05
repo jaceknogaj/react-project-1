@@ -1,5 +1,6 @@
 import { offers } from "../../data/offers";
 import styles from "./Offer.module.css";
+import Services from "./components/Services/Services";
 
 const Offer = () => {
   return (
@@ -13,15 +14,7 @@ const Offer = () => {
         </h2>
         <ul class={styles.listServices}>
           {offers.map((offer) => (
-            <li class={styles.service}>
-              <h3 class={styles.serviceTitle}>{offer.name}</h3>
-              {offer.isNew ? (
-                <>
-                  <p className={styles.serviceNew}>(nowość)</p>
-                  <div className={styles.serviceDot}></div>
-                </>
-              ) : null}
-            </li>
+            <Services offer={offer} />
           ))}
         </ul>
       </div>
